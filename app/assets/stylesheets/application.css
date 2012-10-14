@@ -26,7 +26,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 #wrapper fieldset{
 	  margin-top:50px;
-		margin-left:350px;
+		margin-left:240px;
 }
 
 #wrapper fieldset input.text{
@@ -36,11 +36,15 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 		border-radius: 5px;
 }
 
-#wrapper fieldset button{
-		padding:12px;
+#wrapper fieldset .button{
+		padding:10px;
 	 	-webkit-border-radius: 5px;
 		-moz-border-radius: 5px;
 		border-radius: 5px;
+}
+
+#wrapper div.email{
+		display:inline;
 }
 
 #wrapper .date{
