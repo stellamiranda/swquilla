@@ -11,10 +11,12 @@
  			<div id="wrapper">	
 	 			<div id="header">
 				</div>
-	  		<fieldset>
-					<input class="text" type="text"/>
-					<button type="button">Add</button>
-				</fieldset>
+        <%= simple_form_for @interested_user do |f| %>
+          <fieldset>
+            <%= f.input :email, label: false, input_html: {class: "text", placeholder: "Email"} %>
+            <%= f.button :submit, "Add" %>
+          </fieldset>
+        <% end %>
  			</div>
  		</div>
 	</body>

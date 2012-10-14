@@ -7,7 +7,7 @@ class InterestedUsersController < ApplicationController
   def create
     @interested_user = InterestedUser.new(params[:interested_user])
     if @interested_user.save
-      redirect_to new_interested_user_path
+      redirect_to root_path
     else
       flash[:error] = @interested_user.errors.full_messages.to_sentence
       render :new
