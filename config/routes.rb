@@ -1,4 +1,5 @@
 Swquilla::Application.routes.draw do
+<<<<<<< HEAD
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
@@ -55,4 +56,7 @@ Swquilla::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
+=======
+  resources :interested_users, only: [:new, :create]
+>>>>>>> 185c0120b392f0ecd39d007f0512545de87e65ba
 end
