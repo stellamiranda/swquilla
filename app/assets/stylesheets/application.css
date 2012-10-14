@@ -7,7 +7,7 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 
 .background_big_image { 
 	background: url(/assets/IMG_1619jh.jpg) no-repeat;
-	height:800px;
+	height:1100px;
 	width:1300px;
 }
 
@@ -54,9 +54,14 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 		margin-left:240px;
 }
 
-#footer{margin-top:250px}
+#footer{margin-top:100px}
 
 #footer img{
 	float:left;
 	margin-right:20px;
+}
+
+iframe{
+	margin-top:40px;
+	margin-left:150px;
 }
