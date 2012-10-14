@@ -42,3 +42,11 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 		-moz-border-radius: 5px;
 		border-radius: 5px;
 }
+
+#wrapper .date{
+		background: url(/assets/Date.png) no-repeat center center;
+		height:50px;
+		width:512px;
+		margin-top:50px;
+		margin-left:240px;
+}
