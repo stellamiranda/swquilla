@@ -53,3 +53,10 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 		margin-top:50px;
 		margin-left:240px;
 }
+
+#footer{margin-top:250px}
+
+#footer img{
+	float:left;
+	margin-right:20px;
+}
